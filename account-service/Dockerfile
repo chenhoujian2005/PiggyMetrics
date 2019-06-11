@@ -1,4 +1,4 @@
-FROM index.alauda.cn/alaudademo11/piggymetricsiggyjava
+FROM 10.0.32.127:60080/piggyjava:latest
 MAINTAINER Alexander Lukyanchikov <sqshq@sqshq.com>
 
 ADD ./target/account-service.jar /app/
