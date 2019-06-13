@@ -4,6 +4,5 @@
         tag: latest
 
     ci:
-        - cp  account-service/alaudaci/settings.xml  /etc/maven/
-        - cd  account-service
+        - cp  alaudaci/settings.xml  /etc/maven/
         - mvn clean package 
