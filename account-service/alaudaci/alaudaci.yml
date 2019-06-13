@@ -1,6 +1,6 @@
     version: "0.1.0"
     pre_ci_boot: 
-        image: 10.0.32.127:60080/piggyjava:latest
+        image: 10.0.32.127:60080/piggyjava
         tag: latest
 
     ci:
